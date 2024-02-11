@@ -20,3 +20,16 @@ https://twitter.com/solidquant
 ⚡️ Come join our Discord community to take this journey together:
 
 [👨‍👩‍👦‍👦 Join the Solid Quant Discord Server!](https://discord.com/invite/e6KpjTQP98)
+
+### Add fork repo
+
+```
+git remote add upstream https://github.com/solidquant/sandooo.git
+```
+
+### How to sync from fork branch
+
+```
+git fetch upstream
+git merge upstream/main
+```
